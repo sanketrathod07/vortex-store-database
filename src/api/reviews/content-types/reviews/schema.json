@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "review",
+  "info": {
+    "singularName": "reviews",
+    "pluralName": "review",
+    "displayName": "reviews",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}
